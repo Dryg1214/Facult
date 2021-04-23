@@ -18,6 +18,7 @@ private:
 	Node<T>* head;
 	size_t size;
 	int check_izm = 0;
+	int n;
 public:
 	list() : head(nullptr), size(0) {}
 	void add_last(T data);
